@@ -13,13 +13,15 @@ dependencies:
   # Logging library
   logger: ^0.8.3
   # Http Client generator
-  chopper: ^3.0.2
+  http: ^0.12.1
   # Annotation for [freezed] code generator
   freezed_annotation: ^0.7.1
   # Service Locator (DI)
   get_it: ^4.0.1
   # BLoC (Business Logic Component) for Flutter State Management
-  flutter_bloc: ^3.2.0
+  flutter_bloc: ^4.0.0
+  # Equating two dart objects
+  equatable: ^1.1.1
   # Functional Programming
   dartz: ^0.8.9
   # Socket based data connection checker {beta}
@@ -35,8 +37,6 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   build_runner: ^1.8.1
-  # Code generator for [chopper] library
-  chopper_generator: ^3.0.4
   # Code generator for Data Classes & Equality Operator
   freezed: ^0.10.6
   # Mock framework
@@ -45,5 +45,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  assets: 
+  assets:
     - assets/images/
